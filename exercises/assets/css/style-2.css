@@ -11,14 +11,51 @@ input, button, textarea, select { font: inherit }
 
 /* ================= ENDS ================ */
 
+body{
+    background-color: aliceblue;
+}
 /* Desktops */
-@media (min-width: 768px) { body { padding: 4% 20% } }
+@media (min-width: 768px) { section { padding: 4% 20% } }
 
 /* Mobiles */
-@media (max-width: 767px) { body { padding: 12% 8% } }
+@media (max-width: 767px) { section { padding: 12% 8% } }
 
 section{
-    padding: 5% 5% 5% 5%;
+    background-color: aqua;
+    color: #fff;
+}
+
+.section-1{
+    background-color: #13005A;
+}
+
+.section-1 h2,
+.section-1 p{
+    color: #fff;
+}
+
+.section-2{
+    background-color: #00337C;
+}
+
+.section-2 h2,
+.section-2 p{
+    color: #fff;
+}
+.section-3{
+    background-color: #1C82AD;
+}
+
+.section-3 h2,
+.section-3 p{
+    color: #fff;
+}
+
+.section-4{
+    background-color: dodgerblue;
+}
+.section-5{
+    background-color: #03C988;
 }
 
 h1 {
@@ -44,4 +81,8 @@ p {
     font-family: sans-serif;
     line-height: 1.6;
     margin-bottom: 20px;
+}
+
+.pb{
+    text-align: center;
 }
