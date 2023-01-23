@@ -300,17 +300,17 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  section.w-1024px {
+  section.w-1024px > *{
     max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
   }
-  section.w-1140px {
+  section.w-1140px > *{
     max-width: 1140px;
     margin-left: auto;
     margin-right: auto;
   }
-  section.w-1536px {
+  section.w-1536px > *{
     max-width: 1536px;
     margin-left: auto;
     margin-right: auto;
