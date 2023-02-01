@@ -126,3 +126,48 @@ p {
 .larry p {
   color: #000;
 }
+
+.container-flexbox {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.adam,
+.bono,
+.edge,
+.larry {
+  padding: 20px;
+  margin-bottom: 42px;
+  flex-basis: 25% ;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  
+  .container-flexbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 767px) {
+  .adam,
+  .bono,
+  .edge,
+  .larry {
+    width: 100%;
+  }
+  .container-flexbox {
+    display: block;
+  }
+}
+
+button{
+  margin-top: 32px;
+  padding: 8px 16px;
+  background-color: blue;
+  color: #FFF;
+}

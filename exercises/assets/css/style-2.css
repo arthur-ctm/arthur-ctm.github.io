@@ -341,7 +341,10 @@ section {
   background-color: #13005a;
 }
 
-.section-1 h2,
+.section-1 h2{
+  color: #fff;
+  font-weight: 700;
+}
 .section-1 p {
   color: #fff;
 }
@@ -381,6 +384,7 @@ h1 {
 h2 {
   font-size: 36px;
   margin-bottom: 4px;
+  font-size: calc(22px +(42-22)*((100vw - 320px)/(1600-320)));
 }
 
 h3 {
