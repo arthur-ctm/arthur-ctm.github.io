@@ -1,0 +1,37 @@
+#hero-1 header.theme-dark .badge { background-color: var(--black-000) }
+#hero-1 header.theme-dark .badge { background-color: var(--trend-700) }
+#hero-1 header.theme-dark .badge { background-color: var(--trend-900) }
+#hero-1 header.theme-dark .badge { background-color: var(--trend-900) }
+#hero-1 header.theme-dark { background-color: var(--black-000) }
+#hero-1 header.theme-dark .badge { background-color: var(--black-000) }
+#hero-1 header.theme-dark .badge { color: var(--white-000) }
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(1):link,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(1):visited { color: var(--white-000) }
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(1):link,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(1):visited { border-color: var(--white-000) }
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(1):focus,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(1):hover,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(1):active { background-color: var(--black-000) }
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(1):focus,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(1):hover,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(1):active { color: var(--sky-500) }
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(1):focus,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(1):hover,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(1):active { border-color: var(--sky-500) }
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):link,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):visited { color: var(--black-000) }
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):link,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):visited { background-color: var(--sky-500) }
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):link,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):visited { border-color: var(--sky-500) }
+#hero-1 header.theme-dark h1 { color: var(--sky-500) }
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):focus,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):hover,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):active { color: var(--black-000) }
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):focus,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):hover,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):active { background-color: var(--sky-300) }
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):focus,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):hover,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):active { border-color: var(--sky-300) }
+
