@@ -48,6 +48,7 @@ select {
 @media (max-width: 767px) {
 }
 
+/*Header*/
 #hero-1 header.theme-dark .badge {
   background-color: var(--black-000);
 }
@@ -127,19 +128,27 @@ select {
   -webkit-text-fill-color: transparent;
 }
 
-p {
+/*Main*/
+
+.section-selector-1 p {
   text-align: left;
   font-size: 20px;
   margin-bottom: 8px;
   margin-top: 16px;
 }
 
-h2 {
+.section-selector-1 h2,
+.section-selector-2 h2 {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-underline-offset: 7px;
   text-decoration-color: var(--sky-500);
   text-decoration-style: solid;
+}
+
+.section-selector-2 span {
+  color: var(--sky-500);
+  font-weight: 600;
 }
 
 .section-selector-2 .flex-cols-3 .col-3 a.col-3-h3:link,
@@ -163,6 +172,120 @@ h2 {
 .section-selector-2 div[class^="col-"] a[class^="col-"]:link,
 .section-selector-2 div[class^="col-"] a[class^="col-"]:visited {
   text-decoration-color: var(--sky-500);
+}
+
+/*-Contact-*/
+
+.container-contact-form {
+  background-color: var(--white-000);
+}
+#contact-form {
+  background-color: var(--white-000);
+}
+#contact-form h2 {
+  color: var(--black-000);
+}
+#contact-form #btn-submit {
+  color: var(--white-000);
+}
+#contact-form #btn-submit {
+  background-color: var(--sky-500);
+}
+#contact-form #btn-submit {
+  border-color: var(--sky-500);
+}
+#contact-form #btn-submit:focus {
+  background-color: var(--sky-300);
+}
+#contact-form #btn-submit:hover {
+  background-color: var(--sky-300);
+}
+#contact-form #btn-submit:focus {
+  border-color: var(--sky-300);
+}
+#contact-form #btn-submit:hover {
+  border-color: var(--sky-300);
+}
+#contact-form [type="text"] {
+  background-color: var(--sky-500);
+}
+#contact-form [type="email"] {
+  background-color: var(--sky-500);
+}
+#contact-form textarea {
+  background-color: var(--sky-500);
+}
+#contact-form [type="text"] {
+  background-color: var(--white-000);
+}
+#contact-form [type="email"] {
+  background-color: var(--white-000);
+}
+#contact-form textarea {
+  background-color: var(--white-000);
+}
+#contact-form [type="text"] {
+  border-color: var(--black-000);
+}
+#contact-form [type="email"] {
+  border-color: var(--black-000);
+}
+#contact-form textarea {
+  border-color: var(--black-000);
+}
+#contact-form label {
+  color: var(--black-000);
+}
+
+.contact-form-upper span {
+  font-weight: 600;
+  color: var(--sky-500);
+}
+
+/*Wave*/
+.wave {
+  margin-bottom: -2px;
+}
+
+/*Footer*/
+footer {
+  background-color: var(--black-000);
+}
+footer ul.footer-links li a:link,
+footer ul.footer-links li a:visited {
+  color: var(--sky-500);
+  text-decoration-color: var(--sky-500);
+}
+
+footer p.privacy a:link,
+footer p.privacy a:visited {
+  color: var(--white-000);
+  text-decoration-color: var(--white-000);
+}
+
+footer ul.footer-links li a:focus,
+footer ul.footer-links li a:hover,
+footer ul.footer-links li a:active {
+  color: var(--white-000);
+  text-decoration-color: var(--white-000);
+}
+
+footer p.privacy a:focus,
+footer p.privacy a:hover,
+footer p.privacy a:active {
+  color: var(--sky-500);
+  text-decoration-color: var(--sky-500);
+}
+
+footer ul.footer-icons li a:link i,
+footer ul.footer-icons li a:visited i {
+  color: var(--white-000);
+}
+
+footer ul.footer-icons li a:focus i,
+footer ul.footer-icons li a:hover i,
+footer ul.footer-icons li a:active i {
+  color: var(--sky-500);
 }
 
 /*Animation----------------------------------*/

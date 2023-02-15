@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Arthur Christmann | Home Page</title>
-    <meta name="description" content="Welcome to my website" />
+    <title>Arthur Christmann | Personal Webiste</title>
+    <meta
+      name="description"
+      content="Here are some projects I have built using my web design qnd development skills"
+    />
 
     <!-- Preload large image -->
     <link rel="preload" href="assets/videos/preview.png" as="image" />
@@ -23,6 +26,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- Google Font  -->
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/global.css" />
@@ -42,6 +47,7 @@
       gtag("config", "G-VN8SMS5F67");
     </script>
 
+    <!-- Cookies -->
     <link
       rel="stylesheet"
       type="text/css"
@@ -56,14 +62,14 @@
           <div class="badge bounce-in-top">Arthur CHRISTMANNN</div>
 
           <h1 class="slide-in-left">
-            <span>Computer Engineering </span> Student
+            <span class="typewriter">Computer Engineering </span> Student
           </h1>
 
           <div class="container-btn fade-in">
             <a href="#recent_work" class="btn btn-pill btn-outline"
               ><span>Recent Work</span
               ><i class="fa-regular fa-folder-open"></i></a
-            ><a href="#contact" class="btn btn-soft btn-solid"
+            ><a href="#contact" class="btn btn-pill btn-solid"
               ><span>Contact</span><i class="fa-solid fa-envelope"></i
             ></a>
           </div>
@@ -71,9 +77,18 @@
 
         <div class="col-2 col-visual desktop-bleed-all fade-in">
           <figure>
-            <video loop muted autoplay poster="assets/videos/preview.png" class="background-video">  
-              <source src="assets/videos/render_030001-0180.mp4" type="video/mp4">
-              </video>
+            <video
+              loop
+              muted
+              autoplay
+              poster="assets/videos/preview.png"
+              class="background-video"
+            >
+              <source
+                src="assets/videos/render_030001-0180.mp4"
+                type="video/mp4"
+              />
+            </video>
           </figure>
         </div>
       </header>
@@ -118,6 +133,11 @@
         <div class="col-1 w-1024px">
           <h2 class="" id="recent_work">Recent Work</h2>
         </div>
+        <p>
+          Below you can see a selection of my <span>web design</span> and
+          <span>front-end</span>
+          development work.
+        </p>
 
         <!-- Begin three-column flexbox grid -->
         <div
@@ -131,12 +151,12 @@
             </figure>
 
             <a href="portfolio/project-hero/index.html" class="col-3-h3"
-              >Project Hero</a
-            >
+              >Hero Block Gallery
+            </a>
 
             <p>
-              Our friendly baristas are waiting to pour your favourite beverage.
-              We use only expertly selected coffee beans and tea leaves.
+              A gallery of hero block elements with split-screen layouts and
+              duotone images.
             </p>
           </div>
 
@@ -150,14 +170,10 @@
             </figure>
 
             <a href="portfolio/project-multi-column/index.html" class="col-3-h3"
-              >Project multi-column</a
-            >
+              >Multi-column Layouts
+            </a>
 
-            <p>
-              Level up your look with our ever-changing selection of on-trend
-              brands. We ship to almost everywhere in the world quickly and
-              reliably.
-            </p>
+            <p>A gallery of multi-column, reponsive layouts.</p>
           </div>
 
           <div class="col-3">
@@ -167,12 +183,13 @@
               /></a>
             </figure>
 
-            <a href="portfolio/fashion/index.html" class="col-3-h3">Fashion</a>
+            <a href="portfolio/fashion/index.html" class="col-3-h3"
+              >Snazzy Fashion</a
+            >
 
             <p>
-              Supercharge your web design career with the
-              <i>Lunevedy: JavaScript for Beginners</i> training course. All
-              important topics covered.
+              A web page for a fashion retailer with a background video that
+              plays in a continuous loop.
             </p>
           </div>
 
@@ -190,9 +207,8 @@
             >
 
             <p>
-              Supercharge your web design career with the
-              <i>Lunevedy: JavaScript for Beginners</i> training course. All
-              important topics covered.
+              A multi-column, flexbox-based page layout and hero image with a
+              tinted overlay.
             </p>
           </div>
         </div>
@@ -219,19 +235,89 @@
       <section class="section-selector-1 w-1356px">
         <div class="col-1 w-1024px">
           <h2 class="" id="contact">Contact</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-            odio quisquam molestias minima, accusamus veniam eveniet nisi soluta
-            ea alias, debitis velit dolore cumque voluptates temporibus vero
-            pariatur vel magni.
-          </p>
+
+          <section class="container-contact-form w-800px">
+            <!-- Contact form starts here -->
+            <form
+              id="contact-form"
+              name="contact-form"
+              accept-charset="utf-8"
+              method="post"
+              action="https://formspree.io/f/xdoverok"
+            >
+              <div class="contact-form-upper">
+                <p>
+                  Have a <span>project</span> you'd like to discuss? Let's make
+                  something great together! Use the form below to let me know a
+                  little more about your <span>objectives</span> and I'll get
+                  back to you.
+                </p>
+              </div>
+
+              <!-- Begin contact form fields -->
+
+              <div class="flex-row">
+                <div class="item-name">
+                  <label for="full-name">Full Name</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="full-name"
+                    placeholder="Your First and Last Name."
+                    required=""
+                  />
+                </div>
+                <div class="item-email">
+                  <label for="email-address">Email</label>
+                  <input
+                    type="email"
+                    name="_replyto"
+                    id="email-address"
+                    placeholder="Your Email Address."
+                    required=""
+                  />
+                </div>
+              </div>
+
+              <div class="flex-row">
+                <div class="item-textarea">
+                  <label for="message">Message</label>
+                  <textarea
+                    rows="5"
+                    name="message"
+                    id="message"
+                    placeholder="Your Message."
+                    required=""
+                  ></textarea>
+                </div>
+
+                <div class="item-btn">
+                  <button id="btn-submit" type="submit" class="btn-pill">
+                    <span>Send</span><i class="fas fa-arrow-circle-right"></i>
+                  </button>
+                </div>
+              </div>
+
+              <input
+                type="hidden"
+                name="_subject"
+                id="email-subject"
+                value="Contact Form Submission"
+              />
+              <!-- End contact form fields -->
+            </form>
+            <!-- Contact form ends here -->
+          </section>
+          <!-- End container for contact form -->
         </div>
       </section>
       <!-- section ends here -->
     </main>
 
+    <!-- Wave -->
     <!-- Generated by https://smooth.ie/blogs/news/svg-wavey-transitions-between-sections -->
     <div
+      class="wave"
       style="
         max-width: 1920px;
         margin-left: auto;
@@ -252,10 +338,35 @@
       </svg>
     </div>
 
+    <!-- Footer -->
+    <footer class="text-center-desktop text-center-mobile">
+      <!--
+      <ul class="footer-links">
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+      </ul>
+      -->
+
+      <ul class="footer-icons">
+        <li>
+          <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </li>
+
+        <li>
+          <a href="#" target="_blank"><i class="fab fa-github-square"></i></a>
+        </li>
+      </ul>
+
+      <p class="privacy"><a href="privacy.html">Privacy &amp; Legal</a></p>
+    </footer>
+
+    <!--Cookies-->
     <script
       src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"
       data-cfasync="false"
     ></script>
+
     <script>
       window.cookieconsent.initialise({
         palette: {
