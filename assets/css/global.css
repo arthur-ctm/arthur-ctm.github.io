@@ -130,6 +130,10 @@ select {
 
 /*Main*/
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .section-selector-1 p {
   text-align: left;
   font-size: 20px;
