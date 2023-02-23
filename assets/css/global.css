@@ -134,7 +134,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.section-selector-1 p {
+.section-selector-1 p,.section-selector-2 p {
   text-align: left;
   font-size: 20px;
   margin-bottom: 8px;
@@ -191,52 +191,38 @@ body {
 }
 #contact-form #btn-submit {
   color: var(--white-000);
-}
-#contact-form #btn-submit {
+  margin-top: 30px;
+  margin-bottom: -30px;
   background-color: var(--sky-500);
-}
-#contact-form #btn-submit {
   border-color: var(--sky-500);
 }
+
 #contact-form #btn-submit:focus {
   background-color: var(--sky-300);
-}
-#contact-form #btn-submit:hover {
-  background-color: var(--sky-300);
-}
-#contact-form #btn-submit:focus {
   border-color: var(--sky-300);
 }
 #contact-form #btn-submit:hover {
+  background-color: var(--sky-300);
   border-color: var(--sky-300);
 }
+
 #contact-form [type="text"] {
-  background-color: var(--sky-500);
-}
-#contact-form [type="email"] {
-  background-color: var(--sky-500);
-}
-#contact-form textarea {
-  background-color: var(--sky-500);
-}
-#contact-form [type="text"] {
+  
   background-color: var(--white-000);
-}
-#contact-form [type="email"] {
-  background-color: var(--white-000);
-}
-#contact-form textarea {
-  background-color: var(--white-000);
-}
-#contact-form [type="text"] {
   border-color: var(--black-000);
 }
 #contact-form [type="email"] {
+
+  background-color: var(--white-000);
   border-color: var(--black-000);
+
 }
+
 #contact-form textarea {
+  background-color: var(--white-000);
   border-color: var(--black-000);
 }
+
 #contact-form label {
   color: var(--black-000);
 }
@@ -245,6 +231,8 @@ body {
   font-weight: 600;
   color: var(--sky-500);
 }
+
+
 
 /*Wave*/
 .wave {

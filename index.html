@@ -57,6 +57,8 @@
       gtag("config", "G-VN8SMS5F67");
     </script>
 
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <!-- Cookies -->
     <link
       rel="stylesheet"
@@ -80,7 +82,7 @@
               ><span>Recent Work</span
               ><i class="fa-regular fa-folder-open"></i></a
             ><a href="#contact" class="btn btn-pill btn-solid"
-              ><span>Contact</span><i class="fa-solid fa-envelope"></i
+              ><span>Get in touch</span><i class="fa-solid fa-envelope"></i
             ></a>
           </div>
         </div>
@@ -128,9 +130,9 @@
     <main>
       <!-- section starts here -->
       <section class="section-selector-1 w-1356px">
-        <div class="col-1 w-1024px">
+        <div class="col-1 w-1024px sr1">
           <h2 class="" id="about_me">About me</h2>
-          <p>
+          <p class="srb">
             I am 20 years old and a computer engineering student at EPITA (Ecole
             pour informatique et techniques avancées)...
           </p>
@@ -141,19 +143,20 @@
       <!-- section starts here -->
       <section class="section-selector-2 w-1356px">
         <div class="col-1 w-1024px">
-          <h2 class="" id="recent_work">Recent Work</h2>
-        </div>
-        <p>
+          <h2 class="sr2" id="recent_work">Recent Work</h2>
+        
+        <p class="sra">
           Below you can see a selection of my <span>web design</span> and
           <span>front-end</span>
           development work.
         </p>
+      </div>
 
         <!-- Begin three-column flexbox grid -->
         <div
           class="flex-cols-3 rows-gap-3 cols-gap-3 cols-padding cols-borders-width-2"
         >
-          <div class="col-3">
+          <div class="col-3 srb">
             <figure class="photos-zoom photos-brightness">
               <a href="portfolio/project-hero/index.html"
                 ><img src="assets/img/project-hero.png" alt="Placeholder image"
@@ -170,7 +173,7 @@
             </p>
           </div>
 
-          <div class="col-3">
+          <div class="col-3 srb">
             <figure class="photos-zoom photos-brightness">
               <a href="portfolio/project-multi-column/index.html"
                 ><img
@@ -186,7 +189,7 @@
             <p>A gallery of multi-column, reponsive layouts.</p>
           </div>
 
-          <div class="col-3">
+          <div class="col-3 srb">
             <figure class="photos-zoom photos-brightness">
               <a href="portfolio/fashion/index.html"
                 ><img src="assets/img/toc-fashion.jpg" alt="Placeholder image"
@@ -203,7 +206,7 @@
             </p>
           </div>
 
-          <div class="col-3">
+          <div class="col-3 srb">
             <figure class="photos-zoom photos-brightness">
               <a href="portfolio/smoothies/index.html"
                 ><img
@@ -222,7 +225,7 @@
             </p>
           </div>
 
-          <div class="col-3">
+          <div class="col-3 srb">
             <figure class="photos-zoom photos-brightness">
               <a href="portfolio/crypto-wallet/index.html"
                 ><img
@@ -246,8 +249,8 @@
       <!-- section starts here -->
       <section class="section-selector-1 w-1356px">
         <div class="col-1 w-1024px">
-          <h2 class="" id="cv">CV</h2>
-          <p>
+          <h2 class="sr3" id="cv">CV</h2>
+          <p class="srb">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil
             ipsum itaque esse minus quidem ex quae doloremque voluptates
             temporibus incidunt non vel eligendi nobis obcaecati neque sit eos,
@@ -260,81 +263,66 @@
       <!-- section starts here -->
       <section class="section-selector-1 w-1356px">
         <div class="col-1 w-1024px">
-          <h2 class="" id="contact">Contact</h2>
+          <h2 class="sr4" id="contact">Get in touch</h2>
 
-          <section class="container-contact-form w-800px">
-            <!-- Contact form starts here -->
-            <form
-              id="contact-form"
-              name="contact-form"
-              accept-charset="utf-8"
-              method="post"
-              action="https://formspree.io/f/xdoverok"
-            >
-              <div class="contact-form-upper">
-                <p>
-                  Have a <span>project</span> you'd like to discuss? Let's make
-                  something great together! Use the form below to let me know a
-                  little more about your <span>objectives</span> and I'll get
-                  back to you.
-                </p>
-              </div>
+          <p div class="contact-form-upper srb">
+            Have a <span>project</span> you'd like to discuss? Let's make
+            something great together! Use the form below to let me know a
+            little more about your <span>objectives</span> and I'll get back
+            to you.
+          </p>
 
-              <!-- Begin contact form fields -->
-
-              <div class="flex-row">
-                <div class="item-name">
-                  <label for="full-name">Full Name</label>
-                  <input
-                    type="text"
-                    name="name"
-                    id="full-name"
-                    placeholder="Your First and Last Name."
-                    required=""
-                  />
-                </div>
-                <div class="item-email">
-                  <label for="email-address">Email</label>
-                  <input
-                    type="email"
-                    name="_replyto"
-                    id="email-address"
-                    placeholder="Your Email Address."
-                    required=""
-                  />
-                </div>
-              </div>
-
-              <div class="flex-row">
-                <div class="item-textarea">
-                  <label for="message">Message</label>
-                  <textarea
-                    rows="5"
-                    name="message"
-                    id="message"
-                    placeholder="Your Message."
-                    required=""
-                  ></textarea>
-                </div>
-
-                <div class="item-btn">
-                  <button id="btn-submit" type="submit" class="btn-pill">
-                    <span>Send</span><i class="fas fa-arrow-circle-right"></i>
-                  </button>
-                </div>
-              </div>
-
+          <form
+            id="contact-form"
+            name="contact-form"
+            accept-charset="utf-8"
+            method="post"
+            action="https://formspree.io/f/xdoverok"
+            class="srb w-1356px"
+          >
+            <div class="form-row">
+              <label for="full_name">Full Name</label>
               <input
-                type="hidden"
-                name="_subject"
-                id="email-subject"
-                value="Contact Form Submission"
+                type="text"
+                name="full_name"
+                id="full_name"
+                required=""
+                placeholder="Your First and Last Name."
               />
-              <!-- End contact form fields -->
-            </form>
-            <!-- Contact form ends here -->
-          </section>
-          <!-- End container for contact form -->
+            </div>
+
+            <div class="form-row">
+              <label for="email_address">Email</label>
+              <input
+                data-validate="email"
+                aria-required="true"
+                type="email"
+                name="email_address"
+                id="email_address"
+                placeholder="Your Email Address."
+                required=""
+              />
+            </div>
+
+            <div class="form-row">
+              <label for="form_message">Message</label>
+              <textarea
+                aria-required="true"
+                rows="5"
+                class="js-autosize"
+                name="form_message"
+                id="form_message"
+                placeholder="Your Message."
+                required=""
+              ></textarea>
+            </div>
+
+            <div class="item-btn">
+              <button id="btn-submit" type="submit" class="btn-pill">
+                <span>Send</span><i class="fas fa-arrow-circle-right"></i>
+              </button>
+            </div>
+          </form>
         </div>
       </section>
       <!-- section ends here -->
@@ -387,13 +375,50 @@
       <p class="privacy"><a href="privacy.html">Privacy &amp; Legal</a></p>
     </footer>
 
+    <!--Script-->
+    <script>
+      ScrollReveal().reveal(".sr1", {
+        delay: 500,
+        duration: 1500,
+        reset: true,
+      });
+
+      ScrollReveal().reveal(".sr2", {
+        delay: 500,
+        duration: 1500,
+        reset: true,
+      });
+
+      ScrollReveal().reveal(".sr3", {
+        delay: 500,
+        duration: 1500,
+        reset: true,
+      });
+
+      ScrollReveal().reveal(".sr4", {
+        delay: 500,
+        duration: 1500,
+        reset: true,
+      });
+
+      ScrollReveal().reveal(".srb", {
+        delay: 900,
+        duration: 1500,
+        reset: true,
+      });
+
+      ScrollReveal().reveal(".sra", {
+        delay: 750,
+        duration: 1500,
+        reset: true,
+      });
+    </script>
+
     <!--Cookies-->
     <script
       src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"
       data-cfasync="false"
     ></script>
-
-    <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
 
     <script>
       window.cookieconsent.initialise({
@@ -413,5 +438,7 @@
         },
       });
     </script>
+
+    <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
   </body>
 </html>
