@@ -16,9 +16,11 @@ html {
   vertical-align: baseline;
   scroll-behavior: smooth;
   scroll-padding-top: 20px;
+ 
 }
 
 body {
+ 
   max-width: 1920px;
   line-height: 1.5;
   margin-left: auto;
@@ -46,6 +48,60 @@ select {
 
 /* Mobiles */
 @media (max-width: 767px) {
+}
+
+nav.theme-dark ul.links-wrapper li a:link,
+nav.theme-dark ul.links-wrapper li a:visited {
+  color: var(--sky-500);
+}
+nav.theme-dark ul.links-wrapper li a:focus,
+nav.theme-dark ul.links-wrapper li a:hover,
+nav.theme-dark ul.links-wrapper li a:active {
+  color: var(--sky-300);
+}
+nav.theme-dark .nav-toggle .bar-1,
+nav.theme-dark .nav-toggle .bar-2,
+nav.theme-dark .nav-toggle .bar-3 {
+  background-color: var(--sky-500);
+}
+@media (max-width: 767px) {
+  nav.theme-dark ul.links-wrapper.active {
+    background-color: var(--black-000);
+  }
+}
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-1,
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-2,
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-3 {
+  background-color: var(--sky-500);
+}
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle {
+  background-color: var(--black-000);
+}
+nav.theme-dark.menu-sticky.menu-on-scroll,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active {
+  background-color: var(--black-000);
+}
+@media (max-width: 767px) {
+  nav.theme-dark ul.links-wrapper.active li a:link,
+  nav.theme-dark ul.links-wrapper.active li a:visited {
+    color: var(--sky-500);
+  }
+}
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:link,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:visited {
+  color: var(--sky-500);
+}
+@media (max-width: 767px) {
+  nav.theme-dark ul.links-wrapper.active li a:link,
+  nav.theme-dark ul.links-wrapper.active li a:visited {
+    color: var(--sky-500);
+  }
+}
+@media (max-width: 767px) {
+  nav.theme-dark ul.links-wrapper.active li a:link,
+  nav.theme-dark ul.links-wrapper.active li a:visited {
+    color: var(--sky-500);
+  }
 }
 
 /*Header*/
@@ -134,7 +190,15 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.section-selector-1 p,.section-selector-2 p {
+section.section-selector-1 {
+  padding: 30px 4%;
+}
+section.section-selector-2 {
+  padding: 30px 4%;
+}
+
+.section-selector-1 p,
+.section-selector-2 p {
   text-align: left;
   font-size: 20px;
   margin-bottom: 8px;
@@ -207,15 +271,12 @@ body {
 }
 
 #contact-form [type="text"] {
-  
   background-color: var(--white-000);
   border-color: var(--black-000);
 }
 #contact-form [type="email"] {
-
   background-color: var(--white-000);
   border-color: var(--black-000);
-
 }
 
 #contact-form textarea {
@@ -231,8 +292,6 @@ body {
   font-weight: 600;
   color: var(--sky-500);
 }
-
-
 
 /*Wave*/
 .wave {
