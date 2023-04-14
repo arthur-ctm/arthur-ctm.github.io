@@ -200,18 +200,21 @@ section.section-selector-2 {
 .section-selector-1 p,
 .section-selector-2 p {
   text-align: left;
-  font-size: 20px;
+  font-size: var(--font-size-md);
   margin-bottom: 8px;
   margin-top: 16px;
+  line-height: 1.7;
+  font-weight: 300;
 }
 
 .section-selector-1 h2,
 .section-selector-2 h2 {
   text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 7px;
+  text-decoration-thickness: 6px;
+  text-underline-offset: 9px;
   text-decoration-color: var(--sky-500);
   text-decoration-style: solid;
+  margin-bottom: 30px;
 }
 
 .section-selector-2 span {
@@ -253,13 +256,15 @@ section.section-selector-2 {
 #contact-form h2 {
   color: var(--black-000);
 }
+
 #contact-form #btn-submit {
-  color: var(--white-000);
+  color: var(--white-000) !important;
   margin-top: 30px;
   margin-bottom: -30px;
   background-color: var(--sky-500);
   border-color: var(--sky-500);
 }
+
 
 #contact-form #btn-submit:focus {
   background-color: var(--sky-300);
@@ -286,6 +291,8 @@ section.section-selector-2 {
 
 #contact-form label {
   color: var(--black-000);
+  margin: 10px;
+  
 }
 
 .contact-form-upper span {
@@ -338,6 +345,8 @@ footer ul.footer-icons li a:hover i,
 footer ul.footer-icons li a:active i {
   color: var(--sky-500);
 }
+
+
 
 /*Animation----------------------------------*/
 
